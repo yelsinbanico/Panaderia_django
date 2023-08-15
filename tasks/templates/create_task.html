@@ -6,14 +6,14 @@
         <div class="col-md-4 offset-md-4 mt-5 ">
 
 <form action="/tasks/create/" method="POST" class="card card-body">
-    <h1>Create task</h1>
+    <h1>Crear Tarea</h1>
     {{error}}
 
 
     {% csrf_token %}
     {{form}}
     <button class="btn btn-primary">
-        💾 Save
+        💾 Guardar
     </button>
 </form>
 
