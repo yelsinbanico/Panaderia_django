@@ -33,7 +33,7 @@ def signup(request):
                 'error': 'Este usuario ya existe'})              
         return render(request, 'signup.html', {
             'form': UserCreationForm,
-            'error': 'Las constraseñas no coinciden'})
+            'error': 'La constraseña no coincide'})
     
 @login_required    
 def tasks(request):
